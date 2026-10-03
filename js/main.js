@@ -4,8 +4,6 @@ try{var s=localStorage.getItem('theme');if(s)r.setAttribute('data-theme',s)}catc
 sync();
 b.onclick=function(){var n=sync()?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}sync()};
 document.getElementById('up').onclick=function(){scrollTo({top:0,behavior:'smooth'})};
-document.getElementById('f').onsubmit=function(e){e.preventDefault();var f=e.target;
-location.href='mailto:'+DATA.profile.email+'?subject='+encodeURIComponent(f.s.value||'Portfolio message from '+f.n.value)+'&body='+encodeURIComponent(f.m.value+'\n\n'+f.n.value+' ('+f.e.value+')')};
 var mb=document.getElementById('mb'),lk=document.querySelector('.links'),bk=document.getElementById('mbk');
 lk.querySelectorAll('a').forEach(function(a,i){a.style.setProperty('--i',i)});
 function sm(o){lk.classList.toggle('open',o);document.body.classList.toggle('menu-open',o);mb.setAttribute('aria-expanded',o);mb.setAttribute('aria-label',o?'Close menu':'Open menu')}
