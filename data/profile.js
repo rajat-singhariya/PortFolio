@@ -18,7 +18,7 @@ DATA.profile = {
   about: [
     "I'm <b style=\"color:var(--lav)\">Rajat Singhariya</b>, a final-year B.Tech Computer Science student at JIET Jodhpur with a passion for building digital products end to end. My interests sit at the intersection of <b>Full-Stack Development</b>, <i>Backend APIs</i> and <b>Artificial Intelligence</b>.",
     "I study how real users work first, then design the database, the API and the interface around that. LexBot, my legal chatbot, has been used by 100+ people with a 4.5-star average rating, and my grocery system was designed after studying 10+ real shops.",
-    "Right now I'm interning as a PHP developer at Lucid Outsourcing Solutions, building e-commerce apps and an LLM-powered assistant. I'm looking for a software engineering role where I can take on more responsibility over time."
+    "I completed a 3-month PHP internship at Lucid Outsourcing Solutions (May to August 2026), where I built e-commerce apps in object-oriented PHP and an LLM-powered assistant. I'm looking for a software engineering role where I can take on more responsibility over time."
   ],
 
   // Footer
